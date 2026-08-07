@@ -44,21 +44,21 @@ The model adopts an MoE language model, a native-resolution visual encoder (Moon
 
 ## 3. News
 
-- 2025.06.21: Release of Kimi-VL-A3B-Thinking-2506: [Tech Blog & Cookbook](https://huggingface.co/blog/moonshotai/kimi-vl-a3b-thinking-2506), [🤗 Hugging Face](https://huggingface.co/moonshotai/Kimi-VL-A3B-Thinking-2506)
+- 2025.06.21: Release of Kimi-VL-A3B-Thinking-2506: [Tech Blog & Cookbook](https://huggingface.co/blog/moonshotai/kimi-vl-a3b-thinking-2506), [🧗 Hugging Face](https://huggingface.co/moonshotai/Kimi-VL-A3B-Thinking-2506)
 - 2025.04.15: [vLLM](https://github.com/vllm-project/vllm) has supported Kimi-VL deployment. See [#16387](https://github.com/vllm-project/vllm/pull/16387) for details.
 - 2025.04.14: [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) has supported Kimi-VL finetuning. See [#7719](https://github.com/hiyouga/LLaMA-Factory/pull/7719) for details.
 
 ## 4. Model Variants
 
-🤗 For common general multimodal perception and understanding, OCR, long video and long document, video perception, and OS-agent uses, we recommend `Kimi-VL-A3B-Instruct` for efficient inference; meanwhile, our new thinking version, `Kimi-VL-A3B-Thinking-2506` also has excellent multimodal perception, long video and long document and OS-agent grounding abilities while achieving better multimodal reasoning skills. See [this blog](https://huggingface.co/blog/moonshotai/kimi-vl-a3b-thinking-2506) for more information.
+🧗 For common general multimodal perception and understanding, OCR, long video and long document, video perception, and OS-agent uses, we recommend `Kimi-VL-A3B-Instruct` for efficient inference; meanwhile, our new thinking version, `Kimi-VL-A3B-Thinking-2506` also has excellent multimodal perception, long video and long document and OS-agent grounding abilities while achieving better multimodal reasoning skills. See [this blog](https://huggingface.co/blog/moonshotai/kimi-vl-a3b-thinking-2506) for more information.
 
 <div align="center">
 
 | **Model** | **#Total Params** | **#Activated Params** | **Context Length** | **Download Link** |
 | :------------: | :------------: | :------------: | :------------: | :------------: |
-| 🔥Kimi-VL-A3B-Thinking-2506  | 16B | 3B |  128K   | [🤗 Hugging Face](https://huggingface.co/moonshotai/Kimi-VL-A3B-Thinking-2506)   |
-| Kimi-VL-A3B-Instruct | 16B | 3B | 128K   | [🤗 Hugging Face](https://huggingface.co/moonshotai/Kimi-VL-A3B-Instruct)   |
-| Kimi-VL-A3B-Thinking (deprecated)  | 16B | 3B |  128K   | [🤗 Hugging Face](https://huggingface.co/moonshotai/Kimi-VL-A3B-Thinking)   |
+| 🔥Kimi-VL-A3B-Thinking-2506  | 16B | 3B |  128K   | [🧗 Hugging Face](https://huggingface.co/moonshotai/Kimi-VL-A3B-Thinking-2506)   |
+| Kimi-VL-A3B-Instruct | 16B | 3B | 128K   | [🧗 Hugging Face](https://huggingface.co/moonshotai/Kimi-VL-A3B-Instruct)   |
+| Kimi-VL-A3B-Thinking (deprecated)  | 16B | 3B |  128K   | [🧗 Hugging Face](https://huggingface.co/moonshotai/Kimi-VL-A3B-Thinking)   |
 
 </div>
 
@@ -70,8 +70,8 @@ The model adopts an MoE language model, a native-resolution visual encoder (Moon
 
 ### Hugging Face Demo
 
-> 🤗 We serve our model demo in Hugging Face spaces:
-> - Chat with **Kimi-VL-A3B-Thinking-2506**👀🤔🗺️🎬📖🖥️ (*unifying thinking, general understanding, puzzle solving, agent, video, PDF*) model on <a href="https://huggingface.co/spaces/moonshotai/Kimi-VL-A3B-Thinking/">Chat Web</a>.
+> 🧗 We serve our model demo in Hugging Face spaces:
+> - Chat with **Kimi-VL-A3B-Thinking-2506**👀🔔🗺️🎬📖🖥️ (*unifying thinking, general understanding, puzzle solving, agent, video, PDF*) model on <a href="https://huggingface.co/spaces/moonshotai/Kimi-VL-A3B-Thinking/">Chat Web</a>.
 
 ## 5. Performance
 
