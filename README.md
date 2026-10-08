@@ -1,1 +1,315 @@
-PGRpdiBhbGlnbj0iY2VudGVyIj4KICA8YSBocmVmPSJLaW1pLVZMLnBkZiI+S0lNSS1WTCBURUNITklDQUwgUkVQT1JUPC9hPgo8L2Rpdj4KCjxkaXYgYWxpZ249ImNlbnRlciI+CiAgPGEgaHJlZj0iaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI1MDQuMDc0OTEiPjxpbWcgc3JjPSJmaWd1cmVzL2xvZ28ucG5nIiBoZWlnaHQ9IjE2IiB3aWR0aD0iMTYiIHN0eWxlPSJ2ZXJ0aWNhbC1hbGlnbjptaWRkbGUiPjxiPiBUZWNoIFJlcG9ydDwvYj48L2E+ICB8ICAKICA8YSBocmVmPSJodHRwczovL2h1Z2dpbmdmYWNlLmNvL2NvbGxlY3Rpb25zL21vb25zaG90YWkva2ltaS12bC1hM2ItNjdmNjdiNmFjOTFkM2IwM2QzODJkZDg1Ij48aW1nIHNyYz0iaHR0cHM6Ly9odWdnaW5nZmFjZS5jby9mcm9udC9hc3NldHMvaHVnZ2luZ2ZhY2VfbG9nby1ub2JvcmRlci5zdmciIGhlaWdodD0iMTYiIHdpZHRoPSIxNiIgc3R5bGU9InZlcnRpY2FsLWFsaWduOm1pZGRsZSI+PGI+IEh1Z2dpbmdGYWNlPC9iPgogIDwvYT4gfAogIDxhIGhyZWY9Imh0dHBzOi8vaHVnZ2luZ2ZhY2UuY28vc3BhY2VzL21vb25zaG90YWkvS2ltaS1WTC1BM0ItVGhpbmtpbmcvIj7wn5KjPGI+Q2hhdCB3aXRoIExhdGVzdCBLaW1pLVZMICgyNTA2KTwvYj48L2E+CjwvZGl2PgoKCgkjIyAxLiBJbnRyb2R1Y3Rpb24KCldlIHByZXNlbnQgKipLaW1pLVZMKiosIGFuIGVmZmljaWVudCBvcGVuLXNvdXJjZSBNaXh0dXJlLW9mLUV4cGVydHMgKE1vRSkgdmlzaW9uLWxhbmd1YWdlIG1vZGVsIChWTE0pIHRoYXQgb2ZmZXJzICoqYWR2YW5jZWQgbXVsdGltb2RhbCByZWFzb25pbmcsIGxvbmctY29udGV4dCB1bmRlcnN0YW5kaW5nLCBhbmQgc3Ryb25nIGFnZW50IGNhcGFiaWxpdGllcyoq4oCUYWxsIHdoaWxlIGFjdGl2YXRpbmcgb25seSAqKjIuOEIqKiBwYXJhbWV0ZXJzIGluIGl0cyBsYW5ndWFnZSBkZWNvZGVyIChLaW1pLVZMLUEzQikuCgpLaW1pLVZMIGRlbW9uc3RyYXRlcyBzdHJvbmcgcGVyZm9ybWFuY2UgYWNyb3NzIGNoYWxsZW5naW5nIGRvbWFpbnM6CmFzIGEgZ2VuZXJhbC1wdXJwb3NlIFZMTSwgS2ltaS1WTCBleGNlbHMgaW4gbXVsdGktdHVybiBhZ2VudCBpbnRlcmFjdGlvbiB0YXNrcyAoZS5nLixPU1dvcmxkKSwgYWNoaWV2aW5nIHN0YXRlLW9mLXRoZS1hcnQgcmVzdWx0cyBjb21wYXJhYmxlIHRvIGZsYWdzaGlwIG1vZGVscy4KRnVydGhlcm1vcmUsIGl0IGV4aGliaXRzIHJlbWFya2FibGUgY2FwYWJpbGl0aWVzIGFjcm9zcyBkaXZlcnNlIGNoYWxsZW5naW5nIHZpc2lvbiBsYW5ndWFnZSB0YXNrcywgaW5jbHVkaW5nIGNvbGxlZ2UtbGV2ZWwgaW1hZ2UgYW5kIHZpZGVvIGNvbXByZWhlbnNpb24sIG9wdGljYWwgY2hhcmFjdGVyIHJlY29nbml0aW9uIChPQ1IpLCBtYXRoZW1hdGljYWwgcmVhc29uaW5nLCBtdWx0aS1pbWFnZSB1bmRlcnN0YW5kaW5nLCBhbmQgZXRjLgoKSW4gY29tcGFyYXRpdmUgZXZhbHVhdGlvbnMsIGl0IGVmZmVjdGl2ZWx5IGNvbXBldGVzIHdpdGggY3V0dGluZy1lZGdlIGVmZmljaWVudCBWTE1zIHN1Y2ggYXMgR1BULTRvLW1pbmksIFF3ZW4yLjUtVkwtN0IsIGFuZEdlbW1hLTMtMTJCLUlULCB3aGlsZSBzdXJwYXNzaW5nIEdQVC00byBpbiBzZXZlcmFsIHNwZWNpYWxpemVkIGRvbWFpbnMuCgpLaW1pLVZMIGFsc28gYWR2YW5jZXMgdGhlIHBhcmV0byBmcm9udGllcnMgb2YgbXVsdGltb2RhbCBtb2RlbHMgaW4gcHJvY2Vzc2luZyBsb25nIGNvbnRleHRzIGFuZCBwZXJjZWl2aW5nIGNsZWFybHk6IEVxdWlwcGVkIHdpdGggYSAxMjhLIGV4dGVuZGVkIGNvbnRleHQgd2luZG93LCBLaW1pLVZMIGNhbiBwcm9jZXNzZXMgbG9uZyBhbmQgZGl2ZXJzZSBpbnB1dHMsIGFjaGlldmluZyBpbXByZXNzaXZlIHNjb3JlcyBvZiA2NC41IG9uIExvbmdWaWRlb0JlbmNoLCBhbmQgMzUuMSBvbiBNTUxvbmdCZW5jaC1Eb2M7IEl0cyBuYXRpdmUtcmVzb2x1dGlvbiB2aXNpb24gZW5jb2RlciwgTW9vblZpVCwgZnVydGhlciBhbGxvd3MgaXQgdG8gc2VlIGFuZCB1bmRlcnN0YW5kIHVsdHJhLWhpZ2gtcmVzb2x1dGlvbiB2aXN1YWwgaW5wdXRzLCBhY2hpZXZpbmcgODMuMiBvbiBJbmZvVlFBIGFuZCAzNC41IG9uIFNjcmVlblNwb3QtUHJvLCB3aGlsZSBtYWludGFpbmluZyBsb3dlciBjb21wdXRhdGlvbmFsIGNvc3Qgd2l0aCBjb21tb24gdmlzdWFsIGlucHV0cyBhbmQgZ2VuZXJhbCB0YXNrcy4KCkJ1aWxkaW5nIG9uIHRoaXMgZm91bmRhdGlvbiwgd2UgaW50cm9kdWNlIGFuIGFkdmFuY2VkIGxvbmctdGhpbmtpbmcgdmFyaWFudDogKipLaW1pLVZMLVRoaW5raW5nKiouIERldmVsb3BlZCB0aHJvdWdoIGxvbmcgY2hhaW4tb2YtdGhvdWdodCAoQ29UKSBzdXBlcnZpc2VkIGZpbmUtdHVuaW5nIChTRlQpIGFuZCByZWluZm9yY2VtZW50IGxlYXJuaW5nIChSTCksIHRoaXMgbW9kZWwgZXhoaWJpdHMgc3Ryb25nIGxvbmctaG9yaXpvbiByZWFzb25pbmcgY2FwYWJpbGl0aWVzLiBJdCBhY2hpZXZlcyBzY29yZXMgb2YgNjEuNyBvbiBNTU1VLCAzNi44IG9uIE1hdGhWaXNpb24sIGFuZCA3MS4zIG9uIE1hdGhWaXN0YSB3aGlsZSBtYWludGFpbmluZyB0aGUgY29tcGFjdCAyLjhCIGFjdGl2YXRlZCBMTE0gcGFyYW1ldGVyIGZvb3RwcmludCwgc2V0dGluZyBhIG5ldyBzdGFuZGFyZCBmb3IgZWZmaWNpZW50IHlldCBjYXBhYmxlIG11bHRpbW9kYWwgKip0aGlua2luZyoqIG1vZGVscy4KCgo8aT5CZXNpZGVzIG9yaWdpbmFsIG1vZGVsIHZhcmlhbnRzLCB3ZSBhbHNvIHByb3ZpZGUgYSBuZXcgW0tpbWktVkwtQTNCLVRoaW5raW5nLTI1MDZdKGh0dHBzOi8vaHVnZ2luZ2ZhY2UuY28vbW9vbnNob3RhaS9LaW1pLVZMLUEzQi1UaGlua2luZy0yNTA2KSB2YXJpYW50IHdpdGggc2V2ZXJhbCBuZXcgb3IgaW1wcm92ZWQgYWJpbGl0aWVzOgotIEl0IFRoaW5rcyBTbWFydGVyIHdoaWxlIENvbnN1bWluZyBMZXNzIFRva2VuczogVGhlIDI1MDYgdmVyc2lvbiByZWFjaGVzIGJldHRlciBhY2N1cmFjeSBvbiBtdWx0aW1vZGFsIHJlYXNvbmluZyBiZW5jaG1hcmtzOiA1Ni45IG9uIE1hdGhWaXNpb24gKCsyMC4xKSwgODAuMSBvbiBNYXRoVmlzdGEgKys4LjQpLCA0Ni4zIG9uIE1NTVUtUHJvICgrMy4yKSwgNjQuMCBvbiBNTU1VICgrMi4xKSwgd2hpbGUgaW4gYXZlcmFnZSByZWR1Y2luZyAyMCUgdGhpbmtpbmcgbGVuZ3RoLgotIEl0IFNlZXMgQ2xlYXJlciB3aXRoIFRoaW5raW5nOiBVbmxpa2UgdGhlIHByZXZpb3VzIHZlcnNpb24gdGhhdCBzcGVjaWFsaXplcyBvbiB0aGlua2luZyB0YXNrcywgdGhlIDI1MDYgdmVyc2lvbiBjYW4gYWxzbyBhY2hpZXZlIHRoZSBzYW1lIG9yIGV2ZW4gYmV0dGVyIGFiaWxpdHkgb24gZ2VuZXJhbCB2aXN1YWwgcGVyY2VwdGlvbiBhbmQgdW5kZXJzdGFuZGluZywgZS5nLiBNTUJlbmNoLUVOLXYxLjEgKDg0LjQpLCBNTVN0YXIgKDcwLjQpLCBSZWFsV29ybGRRQSAoNzAuMCksIE1NVmV0ICg3OC40KSBjb21wYXJlZCB0byB0aGUgb3JpZ2luYWwgbm9uLXRoaW5raW5nIHZlcnNpb24gKEtpbWktVkwtQTNCLUluc3RydWN0KS4KLSBJdCBFeHRlbmRzIHRvIFZpZGVvIFNjZW5hcmlvczogVGhlIG5ldyAyNTA2IHZlcnNpb24gYWxzbyBpbXByb3ZlcyBvbiB2aWRlbyByZWFzb25pbmcgYW5kIHVuZGVyc3RhbmRpbmcgYmVuY2htYXJrcy4gSXQgc2V0cyBuZXcgc3RhdGUtb2YtdGhlLWFydCBmb3Igb3Blbi1zb3VyY2UgbW9kZWxzIG9uIFZpZGVvTU1NVSAoNjUuMiksIHdoaWxlIGFsc28gcmV0YWluaW5nIGdvb2QgYWJpbGl0eSBvbiBnZW5lcmFsIHZpZGVvIHVuZGVyc3RhbmRpbmcgKDcxLjkgb24gVmlkZW8tTU1FKS4KLSBJdCBFeHRlbmRzIHRvIEhpZ2hlciBSZXNvbHV0aW9uOiBUaGUgbmV3IDI1MDYgdmVyc2lvbiBzdXBwb3J0cyAzLjIgbWlsbGlvbiB0b3RhbCBwaXhlbHMgaW4gYSBzaW5nbGUgaW1hZ2UgKDE3OTJ4MTc5MiksIDRYIGNvbXBhcmVkIHRvIHRoZSBvcmlnaW5hbCByZWxlYXNlLiBUaGlzIGxlYWRzIHRvIG5vbi10cml2aWFsIGltcHJvdmVtZW50cyBvbiBoaWdoLXJlc29sdXRpb24gcGVyY2VwdGlvbiBhbmQgT1MtYWdlbnQgZ3JvdW5kaW5nIGJlbmNobWFya3M6IDgzLjIgb24gViogQmVuY2htYXJrICh3aXRob3V0IGV4dHJhIHRvb2xzKSwgNTIuOCBvbiBTY3JlZW5TcG90LVBybywgNTIuNSBvbiBPU1dvcmxkLUcgKGZ1bGwgc2V0IHdpdGggcmVmdXNhbCkuCjwvaT4KCgoK##IDIuIEFyY2hpdGVjdHVyZQoKVGhlIG1vZGVsIGFkb3B0cyBhbiBNb0UgbGFuZ3VhZ2UgbW9kZWwsIGEgbmF0aXZlLXJlc29sdXRpb24gdmlzdWFsIGVuY29kZXIgKE1vb25WaVQpLCBhbmQgYW4gTUxQIHByb2plY3RvciwgYXMgaWxsdXN0cmF0ZWQgaW4gdGhlIGZvbGxvd2luZyBpbWFnZS4KCjxkaXYgYWxpZ249ImNlbnRlciI+CiAgPGltZyB3aWR0aD0iOTAlIiBzcmM9ImZpZ3VyZXMvYXJjaC5wbmciPgo8L2Rpdj4KCgkjIyAzLiBOZXdzCgotIDIwMjUuMDYuMjE6IFJlbGVhc2Ugb2YgS2ltaS1WTC1BM0ItVGhpbmtpbmctMjUwNjogW1RlY2ggQmxvZyBcJiBDb29rYm9va10oaHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL21vb25zaG90YWkva2ltaS12bC1hM2ItdGhpbmtpbmctMjUwNiksIFvwn5eXIEh1Z2dpbmcgRmFjZV0oaHR0cHM6Ly9odWdnaW5nZmFjZS5jby9tb29uc2hvdGFpL0tpbWktVkwtQTNCLVRoaW5raW5nLTI1MDYpCi0gMjAyNS4wNC4xNTogW3ZMTE1dKGh0dHBzOi8vZ2l0aHViLmNvbS92bGxtLXByb2plY3QvdmxsbSkgaGFzIHN1cHBvcnRlZCBLaW1pLVZMIGRlcGxveW1lbnQuIFNlZSBbIzE2Mzg3XShodHRwczovL2dpdGh1Yi5jb20vdmxsbS1wcm9qZWN0L3ZsbG0vcHVsbC8xNjM4NykgZm9yIGRldGFpbHMuCi0gMjAyNS4wNC4xNDogW0xMYU1BLUZhY3RvcnldKGh0dHBzOi8vZ2l0aHViLmNvbS9oaXlvdWdhL0xMYU1BLUZhY3RvcnkpIGhhcyBzdXBwb3J0ZWQgS2ltaS1WTCBmaW5ldHVuaW5nLiBTZWUgWyM3NzE5XShodHRwczovL2dpdGh1Yi5jb20vaGl5b3VnYS9MTGFNQS1GYWN0b3J5L3B1bGwvNzcxOSkgZm9yIGRldGFpbHMuCgojIyA0LiBNb2RlbCBWYXJpYW50cwoK8J+XlyBGb3IgY29tbW9uIGdlbmVyYWwgbXVsdGltb2RhbCBwZXJjZXB0aW9uIGFuZCB1bmRlcnN0YW5kaW5nLCBPQ1IsIGxvbmcgdmlkZW8gYW5kIGxvbmcgZG9jdW1lbnQsIHZpZGVvIHBlcmNlcHRpb24sIGFuZCBPUy1hZ2VudCB1c2VzLCB3ZSByZWNvbW1lbmQgYEtpbWktVkwtQTNCLUluc3RydWN0YCBmb3IgZWZmaWNpZW50IGluZmVyZW5jZTsgbWVhbndoaWxlLCBvdXIgbmV3IHRoaW5raW5nIHZlcnNpb24sIGBLaW1pLVZMLUEzQi1UaGlua2luZy0yNTA2YCBhbHNvIGhhcyBleGNlbGxlbnQgbXVsdGltb2RhbCBwZXJjZXB0aW9uLCBsb25nIHZpZGVvIGFuZCBsb25nIGRvY3VtZW50IGFuZCBPUy1hZ2VudCBncm91bmRpbmcgYWJpbGl0aWVzIHdoaWxlIGFjaGlldmluZyBiZXR0ZXIgbXVsdGltb2RhbCByZWFzb25pbmcgc2tpbGxzLiBTZWUgW3RoaXMgYmxvZ10oaHR0cHM6Ly9odWdnaW5nZmFjZS5jby9ibG9nL21vb25zaG90YWkva2ltaS12bC1hM2ItdGhpbmtpbmctMjUwNikgZm9yIG1vcmUgaW5mb3JtYXRpb24uCgo8ZGl2IGFsaWduPSJjZW50ZXIiPgoKfCAqKk1vZGVsKiogfCAqKiNUb3RhbCBQYXJhbXMqKiB8ICoqI0FjdGl2YXRlZCBQYXJhbXMqKiB8ICoqQ29udGV4dCBMZW5ndGgqKiB8ICoqRG93bmxvYWQgTGluayoqIHwKfCA6LS0tLS0tLS0tLS0tOiB8IDotLS0tLS0tLS0tLS06IHwgOi0tLS0tLS0tLS0tLTogfCA6LS0tLS0tLS0tLS0tOiB8IDotLS0tLS0tLS0tLS06IHwKfCDwn5SlS2ltaS1WTC1BM0ItVGhpbmtpbmctMjUwNiAgfCAxNkIgfCAzQiB8ICAxMjhLICAgfCBb8J+XlyBIdWdnaW5nIEZhY2VdKGh0dHBzOi8vaHVnZ2luZ2ZhY2UuY28vbW9vbnNob3RhaS9LaW1pLVZMLUEzQi1UaGlua2luZy0yNTA2KSAgIHwKfCBLaW1pLVZMLUEzQi1JbnN0cnVjdCB8IDE2QiB8IDNCIHwgMTI4SyAgIHwgW/Cfl5cgSHVnZ2luZyBGYWNlXShodHRwczovL2h1Z2dpbmdmYWNlLmNvL21vb25zaG90YWkvS2ltaS1WTC1BM0ItSW5zdHJ1Y3QpICAgfAp8IEtpbWktVkwtQTNCLVRoaW5raW5nIChkZXByZWNhdGVkKSAgfCAxNkIgfCAzQiB8ICAxMjhLICAgfCBb8J+XlyBIdWdnaW5nIEZhY2VdKGh0dHBzOi8vaHVnZ2luZ2ZhY2UuY28vbW9vbnNob3RhaS9LaW1pLVZMLUEzQi1UaGlua2luZykgICB8Cgo8L2Rpdj4KCj4gWyFOb3RlXQo+IFJlY29tbWVuZGVkIHBhcmFtZXRlciBzZXR0aW5nczoKPiAtIEZvciAqKlRoaW5raW5nIG1vZGVscyoqLCBpdCBpcyByZWNvbW1lbmRlZCB0byB1c2UgYFRlbXBlcmF0dXJlID0gMC44YC4gCj4gLSBGb3IgKipJbnN0cnVjdCBtb2RlbHMqKiwgaXQgaXMgcmVjb21tZW5kZWQgdG8gdXNlIGBUZW1wZXJhdHVyZSA9IDAuMmAuIAoKCiMjIyBIdWdnaW5nIEZhY2UgRGVtbwoKPiDwn5eXIFdlIHNlcnZlIG91ciBtb2RlbCBkZW1vIGluIEh1Z2dpbmcgRmFjZSBzcGFjZXM6Cj4gLSBDaGF0IHdpdGggKipLaW1pLVZMLUEzQi1UaGlua2luZy0yNTA2Kivwn5Sgw4zwn6SUw4zwn5+677iPw4zwn4ysw4zwn42Ww4zwn5ql77iPKiAqKHVuaWZ5aW5nIHRoaW5raW5nLCBnZW5lcmFsIHVuZGVyc3RhbmRpbmcsIHB1enpsZSBzb2x2aW5nLCBhZ2VudCwgdmlkZW8sIFBERikqIG1vZGVsIG9uIDxhIGhyZWY9Imh0dHBzOi8vaHVnZ2luZ2ZhY2UuY28vc3BhY2VzL21vb25zaG90YWkvS2ltaS1WTC1BM0ItVGhpbmtpbmcvIj5DaGF0IFdlYjwvYT4uCgojIyA1LiBQZXJmb3JtYW5jZQoKPiBbIU5vdGVdCj4gU2VlIHRoZSBwZXJmb3JtYW5jZSBvZiBLaW1pLVZMLUEzQi1UaGlua2luZy0yNTA2IGF0IFtIdWdnaW5nIEZhY2VdKGh0dHBzOi8vaHVnZ2luZ2ZhY2UuY28vbW9vbnNob3RhaS9LaW1pLVZMLUEzQi1UaGlua2luZy0yNTA2IzItcGVyZm9ybWFuY2UpLgoKQXMgYW4gZWZmaWNpZW50IG1vZGVsLCBLaW1pLVZMIGNhbiByb2J1c3RseSBoYW5kbGUgZGl2ZXJzZSB0YXNrcyAoZmluZS1ncmFpbmVkIHBlcmNlcHRpb24sIG1hdGgsIGNvbGxlZ2UtbGV2ZWwgcHJvYmxlbXMsIE9DUiwgYWdlbnQsIGV0YykgYWNyb3NzIGEgYnJvYWQgc3BlY3RydW0gb2YgaW5wdXQgZm9ybXMgKHNpbmdsZS1pbWFnZSwgbXVsdGktaW1hZ2UsIHZpZGVvLCBsb25nLWRvY3VtZW50LCBldGMpLgoKQSBicmllZiBjb21wYXJpc29uIHdpdGggZXhpc3RpbmcgMTBCLWxldmVsIGRlbnNlIFZMTXMgYW5kIERlZXBTZWVrLVZMMiAoQTQuNUIpOgoKPGRpdiBhbGlnbj0iY2VudGVyIj4KICA8aW1nIHdpZHRoPSIxMDAlIiBzcmM9ImZpZ3VyZXMvaW5zdHJ1Y3RfcGVyZi5wbmciPgo8L2Rpdj4KCldpdGggZWZmZWN0aXZlIGxvbmctdGhpbmtpbmcgYWJpbGl0aWVzLCBLaW1pLVZMLUEzQi1UaGlua2luZyAoMjUwNCB2ZXJzaW9uKSBjYW4gbWF0Y2ggdGhlIHBlcmZvcm1hbmNlIG9mIDMwQi83MEIgZnJvbnRpZXIgb3Blbi1zb3VyY2UgVkxNcyBvbiBNYXRoVmlzaW9uIGJlbmNobWFyazoKCjxkaXYgYWxpZ249ImNlbnRlciI+CiAgPGltZyB3aWR0aD0iMTAwJSIgc3JjPSJmaWd1cmVzL3RoaW5raW5nX3BlcmYucG5nIj4KPC9kaXY+CgoKIyMgNi4gRXhhbXBsZSB1c2FnZQoKIyMjIFNldHVwCgo8Y29kZT5iYXNoCmNvbmRhIGNyZWF0ZSAtbiBraW1pLXZsIHB5dGhvbj0zLjEwIC15CmNvbmRhIGFjdGl2YXRlIGtpbWktdmwKcGlwIGluc3RhbGwgLXIgcmVxdWlyZW1lbnRzLnR4dAo8L2NvZGU+Cgo+IFshTm90ZV0KPiBJZiB5b3UgZW5jb3VudGVyIE91dC1vZi1NZW1vcnkgb3Igd2FudCB0byBzcGVlZCB1cCBpbmZlcmVuY2UsIHBsZWFzZSBpbnN0YWxsICoqZmxhc2gtYXR0bioqIHdpdGggYHBpcCBpbnN0YWxsIGZsYXNoLWF0dG4gLS1uby1idWlsZC1pc29sYXRpb25gLgoKIyMjIEluZmVyZW5jZSB3aXRoIEh1Z2dpbmcgRmFjZSBUcmFuc2Zvcm1lcnMgCgpXZSBpbnRyb2R1Y2UgaG93IHRvIHVzZSBvdXIgbW9kZWwgYXQgaW5mZXJlbmNlIHN0YWdlIHVzaW5nIHRyYW5zZm9ybWVycyBsaWJyYXJ5LiBJdCBpcyByZWNvbW1lbmRlZCB0byB1c2UgcHl0aG9uPTMuMTAsIHRvcmNoPTIuNS4xLCBhbmQgdHJhbnNmb3JtZXJzPTQuNTEuMyBhcyB0aGUgZGV2ZWxvcG1lbnQgZW52aXJvbm1lbnQuIAoKIyMjIyBLaW1pLVZMLUEzQi1JbnN0cnVjdDoKCjxjb2RlPnB5dGhvbgppbXBvcnQgdG9yY2gKZnJvbSBQSUwgaW1wb3J0IEltYWdlCmZyb20gdHJhbnNmb3JtZXJzIGltcG9ydCBBdXRvTW9kZWxGb3JDYXVzYWxMTSwgQXV0b1Byb2Nlc3NvcgoKbW9kZWxfcGF0aCA9ICJtb29uc2hvdGFpL0tpbWktVkwtQTNCLUluc3RydWN0Igptb2RlbCA9IEF1dG9Nb2RlbEZvckNhdXNhbExNLmZyb21fcHJldHJhaW5lZCgKICAgIG1vZGVsX3BhdGgsCiAgICB0b3JjaF9kdHlwZT0iYXV0byIsCiAgICBkZXZpY2VfbWFwPSJhdXRvIiwKICAgIHRydXN0X3JlbW90ZV9jb2RlPVRydWUsCikKIyBJZiBmbGFzaC1hdHRuIGhhcyBiZWVuIGluc3RhbGxlZCwgaXQgaXMgcmVjb21tZW5kZWQgdG8gc2V0IHRvcmNoX2R0eXBlPXRvcmNoLmJmbG9hdDE2IGFuZCBhdHRuX2ltcGxlbWVudGF0aW9uPSJmbGFzaF9hdHRlbnRpb25fMiIKIyB0byBzYXZlIG1lbW9yeSBhbmQgc3BlZWQgdXAgaW5mZXJlbmNlCiMgbW9kZWwgPSBBdXRvTW9kZWxGb3JDYXVzYWxMTS5mcm9tX3ByZXRyYWluZWQoCiMgICAgbW9kZWxfcGF0aCwKIyAgICB0b3JjaF9kdHlwZT10b3JjaC5iZmxvYXQxNiwKIyAgICBkZXZpY2VfbWFwPSJhdXRvIiwKIyAgICB0cnVzdF9yZW1vdGVfY29kZT1UcnVlLAojICAgIGF0dG5faW1wbGVtZW50YXRpb249ImZsYXNoX2F0dGVudGlvbl8yIgojICkKCnByb2Nlc3NvciA9IEF1dG9Qcm9jZXNzb3IuZnJvbV9wcmV0cmFpbmVkKG1vZGVsX3BhdGgsIHRydXN0X3JlbW90ZV9jb2RlPVRydWUpCgppbWFnZV9wYXRoID0gIi4vZmlndXJlcy9kZW1vLnBuZyIKaW1hZ2UgPSBJbWFnZS5vcGVuKGltYWdlX3BhdGgpCm1lc3NhZ2VzID0gWwogICAgeyJyb2xlIjogInVzZXIiLCAiY29udGVudCI6IFt7InR5cGUiOiAiaW1hZ2UiLCAiaW1hZ2UiOiBpbWFnZV9wYXRofSwgeyJ0eXBlIjogInRleHQiLCAidGV4dCI6ICJXaGF0IGlzIHRoZSBkb21lIGJ1aWxkaW5nIGluIHRoZSBwaWN0dXJlPyBUaGluayBzdGVwIGJ5IHN0ZXAuIn1dfQpdCnRleHQgPSBwcm9jZXNzb3IuYXBwbHlfY2hhdF90ZW1wbGF0ZShtZXNzYWdlcywgYWRkX2dlbmVyYXRpb25fcHJvbXB0PVRydWUsIHJldHVybl90ZW5zb3JzPSJwdCIpCmlucHV0cyA9IHByb2Nlc3NvcihpbWFnZXM9aW1hZ2UsIHRleHQ9dGV4dCwgcmV0dXJuX3RlbnNvcnM9InB0IiwgcGFkZGluZz1UcnVlLCB0cnVuY2F0aW9uPVRydWUpLnRvKG1vZGVsLmRldmljZSkKZ2VuZXJhdGVkX2lkcyA9IG1vZGVsLmdlbmVyYXRlKioqaW5wdXRzLCBtYXhfbmV3X3Rva2Vucz01MTIpCmdlbmVyYXRlZF9pZHNfdHJpbW1lZCA9IFsKICAgIG91dF9pZHNbbGVuKGluX2lkcykgOl0gZm9yIGluX2lkcywgb3V0X2lkcyBpbiB6aXAoaW5wdXRzLmlucHV0X2lkcywgZ2VuZXJhdGVkX2lkcykKXQpyZXNwb25zZSA9IHByb2Nlc3Nvci5iYXRjaF9kZWNvZGUoCiAgICBnZW5lcmF0ZWRfaWRzX3RyaW1tZWQsIHNraXBfc3BlY2lhbF90b2tlbnM9VHJ1ZSwgY2xlYW5fdXBfdG9rZW5pemF0aW9uX3NwYWNlcz1GYWxzZQopWzBdCnByaW50KHJlc3BvbnNlKQo8L2NvZGU+CgojIyMjIEtpbWktVkwtQTNCLVRoaW5raW5nLTI1MDY6Cgo8Y29kZT5weXRob24KaW1wb3J0IHRvcmNoCmZyb20gUElMIGltcG9ydCBJbWFnZQpmcm9tIHRyYW5zZm9ybWVycyBpbXBvcnQgQXV0b01vZGVsRm9yQ2F1c2FsTE0sIEF1dG9Qcm9jZXNzb3IKCm1vZGVsX3BhdGggPSAibW9vbnNob3RhaS9LaW1pLVZMLUEzQi1UaGlua2luZy0yNTA2Igptb2RlbCA9IEF1dG9Nb2RlbEZvckNhdXNhbExNLmZyb21fcHJldHJhaW5lZCgKICAgIG1vZGVsX3BhdGgsCiAgICB0b3JjaF9kdHlwZT0iYXV0byIsCiAgICBkZXZpY2VfbWFwPSJhdXRvIiwKICAgIHRydXN0X3JlbW90ZV9jb2RlPVRydWUsCikKIyBJZiBmbGFzaC1hdHRuIGhhcyBiZWVuIGluc3RhbGxlZCwgaXQgaXMgcmVjb21tZW5kZWQgdG8gc2V0IHRvcmNoX2R0eXBlPXRvcmNoLmJmbG9hdDE2IGFuZCBhdHRuX2ltcGxlbWVudGF0aW9uPSJmbGFzaF9hdHRlbnRpb25fMiIKIyB0byBzYXZlIG1lbW9yeSBhbmQgc3BlZWQgdXAgaW5mZXJlbmNlCiMgbW9kZWwgPSBBdXRvTW9kZWxGb3JDYXVzYWxMTS5mcm9tX3ByZXRyYWluZWQoCiMgICAgbW9kZWxfcGF0aCwKIyAgICB0b3JjaF9kdHlwZT10b3JjaC5iZmxvYXQxNiwKIyAgICBkZXZpY2VfbWFwPSJhdXRvIiwKIyAgICB0cnVzdF9yZW1vdGVfY29kZT1UcnVlLAojICAgIGF0dG5faW1wbGVtZW50YXRpb249ImZsYXNoX2F0dGVudGlvbl8yIgojICkKcHJvY2Vzc29yID0gQXV0b1Byb2Nlc3Nvci5mcm9tX3ByZXRyYWluZWQobW9kZWxfcGF0aCwgdHJ1c3RfcmVtb3RlX2NvZGU9VHJ1ZSkKCmltYWdlX3BhdGhzID0gWyIuL2ZpZ3VyZXMvZGVtbzEucG5nIiwgIi4vZmlndXJlcy9kZW1vMi5wbmciXQppbWFnZXMgPSBbSW1hZ2Uub3BlbihwYXRoKSBmb3IgcGF0aCBpbiBpbWFnZV9wYXRoc10KbWVzc2FnZXMgPSBbCiAgICB7CiAgICAgICAgInJvbGUiOiAidXNlciIsCiAgICAgICAgImNvbnRlbnQiOiBbCiAgICAgICAgICAgIHsidHlwZSI6ICJpbWFnZSIsICJpbWFnZSI6IGltYWdlX3BhdGh9IGZvciBpbWFnZV9wYXRoIGluIGltYWdlX3BhdGhzCiAgICAgICAgXSArIFt7InR5cGUiOiAidGV4dCIsICJ0ZXh0IjogIlBsZWFzZSBpbmZlciBzdGVwIGJ5IHN0ZXAgd2hvIHRoaXMgbWFudXNjcmlwdCBiZWxvbmdzIHRvIGFuZCB3aGF0IGl0IHJlY29yZHMifV0sCiAgICB9LApdCnRleHQgPSBwcm9jZXNzb3IuYXBwbHlfY2hhdF90ZW1wbGF0ZShtZXNzYWdlcywgYWRkX2dlbmVyYXRpb25fcHJvbXB0PVRydWUsIHJldHVybl90ZW5zb3JzPSJwdCIpCmlucHV0cyA9IHByb2Nlc3NvcihpbWFnZXM9aW1hZ2VzLCB0ZXh0PXRleHQsIHJldHVybl90ZW5zb3JzPSJwdCIsIHBhZGRpbmc9VHJ1ZSwgdHJ1bmNhdGlvbj1UcnVlKS50byhtb2RlbC5kZXZpY2UpCmdlbmVyYXRlZF9pZHMgPSBtb2RlbC5nZW5lcmF0ZSoqKmlucHV0cywgbWF4X25ld190b2tlbnM9MzI3NjgsIHRlbXBlcmF0dXJlPTAuOCkKZ2VuZXJhdGVkX2lkc190cmltbWVkID0gWwogICAgb3V0X2lkc1tsZW4oaW5faWRzKSA6XSBmb3IgaW5faWRzLCBvdXRfaWRzIGluIHppcChpbnB1dHMuaW5wdXRfaWRzLCBnZW5lcmF0ZWRfaWRzKQpdCnJlc3BvbnNlID0gcHJvY2Vzc29yLmJhdGNoX2RlY29kZSgKICAgIGdlbmVyYXRlZF9pZHNfdHJpbW1lZCwgc2tpcF9zcGVjaWFsX3Rva2Vucz1UcnVlLCBjbGVhbl91cF90b2tlbml6YXRpb25fc3BhY2VzPUZhbHNlClpbMF0KcHJpbnQocmVzcG9uc2UpCjwvY29kZT4KCiMjIDcuIEZpbmV0dW5pbmcKCkNvbGxhYm9yYXRpbmcgY2xvc2VseSB3aXRoIHRoZSBvcGVuLXNvdXJjZSBjb21tdW5pdHksIEtpbWktVkwgbm93IG9mZmVycyBzZWFtbGVzcyBzdXBwb3J0IGZvciBlZmZpY2llbnQgZmluZS10dW5pbmcgdGhyb3VnaCB0aGUgbGF0ZXN0IHZlcnNpb24gb2YgW0xMYU1BLUZhY3RvcnldKGh0dHBzOi8vZ2l0aHViLmNvbS9oaXlvdWdhL0xMYU1BLUZhY3RvcnkpLiAKClRoZSBmcmFtZXdvcmsgZW5hYmxlcyBTaW5nbGUtR1BVIExvUkEgZmluZS10dW5pbmcgd2l0aCA1MEdCIG9mIFZSQU0sIGFzIHdlbGwgYXMgTXVsdGktR1BVMGZ1bGwvbG9yYSBmaW5lLXR1bmluZyB1c2luZyBEZWVwU3BlZWQgWmVSTy0yLiBGb3IgbW9yZSBkZXRhaWxlZCBjb25maWd1cmF0aW9uIGluc3RydWN0aW9ucywgY2hlY2sgb3V0IFt0aGlzIFBSXShodHRwczovL2dpdGh1Yi5jb20vaGl5b3VnYS9MTGFNQS1GYWN0b3J5L3B1bGwvNzcxOSNpc3N1ZS0yOTkyNjQ0Mjg4KS4KCiMjIDguIERlcGxveW1lbnQKMQojIyMgVXNpbmcgdkxMTQoKVGhlIFt2TExNIG1haW4gYnJhbmNoXShodHRwczovL2dpdGh1Yi5jb20vdmxsbS1wcm9qZWN0L3ZsbG0pIGhhcyBzdXBwb3J0ZWQgS2ltaS1WTCBkZXBsb3ltZW50LiBZb3UgYXJlIHdlbGNvbWUgdG8gZGVwbG95IEtpbWktVkwgdXNpbmcgdkxMTS4KCiMjIyMgT2ZmbGluZSBJbmZlcmVuY2UKCj4gWyFOb3RlXQo+IE1vcmUgdXNhZ2VzIGFib3V0IGBPZmZsaW5lIEluZmVyZW5jZWAga291biBiZSBmb3VuZCBhdCBbdkxMTSBPZmZsaW5lIEluZmVyZW5jZV0oaHR0cHM6Ly9kb2NzLnZsbG0uYWkvZW4vbGF0ZXN0L3NlcnZpbmcvb2ZmbGluZV9pbmZlcmVuY2UuaHRtbCkuCgo8Y29kZT5weXRob24KZnJvbSBQSUwgaW1wb3J0IEltYWdlCmZyb20gdHJhbnNmb3JtZXJzIGltcG9ydCBBdXRvUHJvY2Vzc29yCmZyb20gdmxsbSBpbXBvcnQgTExNLCBTYW1wbGluZ1BhcmFtcwoKbW9kZWxfcGF0aCA9ICJtb29uc2hvdGFpL0tpbWktVkwtQTNCLUluc3RydWN0IiAgIyBvciAibW9vbnNob3RhaS9LaW1pLVZMLUEzQi1UaGlua2luZy0yNTA2IgpsbG0gPSBMTE0oCiAgICBtb2RlbF9wYXRoLAogICAgdHJ1c3RfcmVtb3RlX2NvZGU9VHJ1ZSwKKQoKcHJvY2Vzc29yID0gQXV0b1Byb2Nlc3Nvci5mcm9tX3ByZXRyYWluZWQobW9kZWxfcGF0aCwgdHJ1c3RfcmVtb3RlX2NvZGU9VHJ1ZSkKCmltYWdlX3BhdGggPSAiLi9maWd1cmVzL2RlbW8ucG5nIgppbWFnZSA9IEltYWdlLm9wZW4oaW1hZ2VfcGF0aCkKbWVzc2FnZXMgPSBbCiAgICB7InJvbGUiOiAidXNlciIsICJjb250ZW50IjogW3sidHlwZSI6ICJpbWFnZSIsICJpbWFnZSI6IGltYWdlX3BhdGh9LCB7InR5cGUiOiAidGV4dCIsICJ0ZXh0IjogIldoYXQgaXMgdGhlIGRvbWUgYnVpbGRpbmcgaW4gdGhlIHBpY3R1cmU/IFRoaW5rIHN0ZXAgYnkgc3RlcC4ifV19Cl0KdGV4dCA9IHByb2Nlc3Nvci5hcHBseV9jaGF0X3RlbXBsYXRlKG1lc3NhZ2VzLCBhZGRfZ2VuZXJhdGlvbl9wcm9tcHQ9VHJ1ZSwgcmV0dXJuX3RlbnNvcnM9InB0IikKb3V0cHV0cyA9IGxsbS5nZW5lcmF0ZShbeyJwcm9tcHQiOiB0ZXh0LCAibXVsdGlfbW9kYWxfZGF0YSI6IHsiaW1hZ2UiOiBpbWFnZX19XSwgc2FtcGxpbmdfcGFyYW1zID0gU2FtcGxpbmdQYXJhbXMobWF4X3Rva2Vucz01MTIpKQoKcHJpbnQoIi0iICogNTApCmZvciBvIGluIG91dHB1dHM6CiAgICBnZW5lcmF0ZWRfdGV4dCA9IG8ub3V0cHV0c1swXS50ZXh0CiAgICBwcmludChnZW5lcmF0ZWRfdGV4dCkKICAgIHByaW50KCItIiAqIDUwKQo8L2NvZGU+CgojIyMjIE9wZW5BSS1Db21wYXRpYmxlIFNlcnZlcgoKPiBbIU5vdGVdCj4gTW9yZSB1c2FnZXMgYWJvdXQgYE9wZW5BSS1Db21wYXRpYmxlIFNlcnZlcmAga291biBiZSBmb3VuZCBhdCBbdkxMTSBPcGVuQUktQ29tcGF0aWJsZSBTZXJ2ZXJdKGh0dHBzOi8vZG9jcy52bGxtLmFpL2VuL2xhdGVzdC9zZXJ2aW5nL29wZW5haV9jb21wYXRpYmxlX3NlcnZlci5odG1sIykuCgpTZXJ2ZSBLaW1pLVZMIHdpdGggYHZsbG0gc2VydmVgIGNvbW1hbmQ6Cgo8Y29kZT5iYXNoCiMgSWYgeW91IG5lZWQgYSBsb25nZXIgY29udGV4dCB3aW5kb3csIHlvdSBjYW4gc2V0IC0tbWF4LW1vZGVsLWxlbiBhbmQgLS1tYXgtbnVtLWJhdGNoZWQtdG9rZW5zIHRvIDEzMTA3MgojIElmIHlvdSBuZWVkIG1vcmUgaW5wdXQgaW1hZ2VzLCB5b3UgY2FuIHNldCAtLWxpbWl0LW1tLXBlci1wcm9tcHQgaW1hZ2U9MjU2IG9yIDUxMgoKIyBraW1pLXZsLXRoaW5raW5nLTI1MDYKdmxsbSBzZXJ2ZSBtb29uc2hvdGFpL0tpbWktVkwtQTNCLVRoaW5raW5nLTI1MDYgLS1zZXJ2ZWQtbW9kZWwtbmFtZSBraW1pLXZsLXRoaW5raW5nLTI1MDYgLS10cnVzdC1yZW1vdGUtY29kZSAtLXRlbnNvci1wYXJhbGxlbC1zaXplIDEgLS1tYXgtbnVtLWJhdGNoZWQtdG9rZW5zIDMyNzY4IC0tbWF4LW1vZGVsLWxlbiAzMjc2OCAtLWxpbWl0LW1tLXBlci1wcm9tcHQgaW1hZ2U9NjQKCiMga2ltaS12bC1pbnN0cnVjdAp2bGxtIHNlcnZlIG1vb25zaG90YWkvS2ltaS1WTC1BM0ItSW5zdHJ1Y3QgLS1zZXJ2ZWQtbW9kZWwtbmFtZSBraW1pLXZsIC0tdHJ1c3QtcmVtb3RlLWNvZGUgLS10ZW5zb3ItcGFyYWxsZWwtc2l6ZSAxIC0tbWF4LW51bS1iYXRjaGVkLXRva2VucyAzMjc2OCAtLW1heC1tb2RlbC1sZW4gMzI3NjggLS1saW1pdC1tbS1wZXItcHJvbXB0IGltYWdlPTY0CjwvY29kZT4KCkNhbGwgdGhlIEFQSQoKPGNvZGU+cHl0aG9uCmltcG9ydCBiYXNlNjQKZnJvbSBQSUwgaW1wb3J0IEltYWdlCmZyb20gaW8gaW1wb3J0IEJ5dGVzSU8KZnJvbSBvcGVuYWkgaW1wb3J0IE9wZW5BSQoKY2xpZW50ID0gT3BlbkFJKQogICAgYmFzZV91cmw9Imh0dHA6Ly9sb2NhbGhvc3Q6ODAwMC92MSIsCiAgICBhcGlfa2V5PSJ0b2tlbi1hYmMxMjMiLAopCgppbWFnZV9wYXRoID0gIi4vZmlndXJlcy9kZW1vLnBuZyIKaW1hZ2UgPSBJbWFnZS5vcGVuKGltYWdlX3BhdGgpLmNvbnZlcnQoIlJHQiIpCgpidWZmZXJlZCA9IEJ5dGVzSU8oKQppbWFnZS5zYXZlKGJ1ZmZlcmVkLCBmb3JtYXQ9IkpQRUciKQppbWdfYjY0X3N0ciA9IGJhc2U2NC5iNjRlbmNvZGUoYnVmZmVyZWQuZ2V0dmFsdWUoKSkuZGVjb2RlKCJ1dGYtOCIpCmJhc2U2NF9pbWFnZV91cmwgPSBmImRhdGE6aW1hZ2UvanBlZztiYXNlNjQse2ltZ19iNjRfc3RyfSIKCm1lc3NhZ2VzID0gWwogICAgeyJyb2xlIjogInVzZXIiLCAiY29udGVudCI6IFt7InR5cGUiOiAiaW1hZ2VfdXJsIiwgImltYWdlX3VybCI6IHsidXJsIjogYmFzZTY0X2ltYWdlX3VybH19LCB7InR5cGUiOiAidGV4dCIsICJ0ZXh0IjogIldoYXQgaXMgdGhlIGRvbWUgYnVpbGRpbmcgaW4gdGhlIHBpY3R1cmU/IFRoaW5rIHN0ZXAgYnkgc3RlcC4ifV19Cl0KCmNvbXBsZXRpb24gPSBjbGllbnQuY2hhdC5jb21wbGV0aW9ucy5jcmVhdGUoCiAgbW9kZWw9ImtpbWktdmwtdGhpbmtpbmctMjUwNiIsICMgb3Iga2ltaS12bAogIG1lc3NhZ2VzPW1lc3NhZ2VzCikKCnByaW50KGNvbXBsZXRpb24uY2hvaWNlc1swXS5tZXNzYWdlKQo8L2NvZGU+CgojIyA5LiBDaXRhdGlvbgoKPGNvZGU+CkBtaXNje2tpbWl0ZWFtMjAyNWtpbWl2bHRlY2huaWNhbHJlcG9ydCwKICAgICAgdGl0bGU9e3tLaW1pLVZMfSBUZWNobmljYWwgUmVwb3J0fSwgCiAgICAgIGF1dGhvcj17S2ltaSBUZWFtIGFuZCBBbmdhbmcgRHUgYW5kIEJvaG9uZyBZaW4gYW5kIEJvd2VpIFhpbmcgYW5kIEJvd2VuIFF1IGFuZCBCb3dlbiBXYW5nIGFuZCBDaGVuZyBDaGVuIGFuZCBDaGVubGluIFpoYW5nIGFuZCBDaGVuenh1YW5nIER1IGFuZCBDaHUgV2VpIGFuZCBDb25nY29uZyBXYW5nIGFuZCBEZWhhbyBaaGFuZyBhbmQgRGlrYW5nIER1IGFuZCBEb25nbGlhbmcgV2FuZyBhbmQgRW5taW5nIFl1YW4gYW5kIEVuemhlIEx1IGFuZCBGYW5nIExpIGFuZCBGbG9vZCBTdW5nIGFuZCBHdWFuZ2RhIFdlaSBhbmQgR3Vva3VuIExhaSBhbmQgSGFuIFpodSBhbmQgSGFvIERpbmcgYW5kIEhhbyBIdSBhbmQgSGFvIFlhbmcgYW5kIEhhbyBaaGFuZyBhbmQgSGFvbmluZyBXdSBhbmQgSGFvdGlhbiBZYW8gYW5kIEhhb3l1IEx1IGFuZCBIZW5nIFdhbmcgYW5kIEhvbmdjaGVuZyBHYW8gYW5kIEh1YWJpbiBaaGVuZyBhbmQgSmlhbWluZyBMaSBhbmQgSmlhbmxpbiBTdSBhbmQgSmlhbnpob3UgV2FuZyBhbmQgSmlhcWkgRGVuZyBhbmQgSmllemhvbmcgUWl1IGFuZCBKaW4gWGllIGFuZCBKaW5ob25nIFdhbmcgYW5kIEppbmd5dWFuIExpdSBhbmQgSnVuamllIFlhbiBhbmQgS3VuIE91eWFuZyBhbmQgTGlhbmcgQ2hlbiBhbmQgTGluIFN1aSBhbmQgTG9uZ2h1aSBZdSBhbmQgTWVuZ2ZhbiBEb25nIGFuZCBNZW5nbmFuIERvbmcgYW5kIE51byBYdSBhbmQgUGVuZ3l1IENoZW5nIGFuZFFpemhlbmcgR3UgYW5kIFJ1bmppZSBaaG91IGFuZCBTaGFvd2VpIExpdSBhbmQgU2loYW4gQ2FvIGFuZCBUYW8gWXUgYW5kIFRpYW5odWkgU29uZyBhbmQgVG9uZ3RvbmcgQmFpIGFuZCBXZWkgU29uZyBhbmQgV2VpcmFuIEhlIGFuZCBXZWl4aWFvIEh1YW5nIGFuZCBXZWl4aW4gWHUgYW5kIFhpYW9rdW4gWXVhbiBhbmQgWGluZ2NoZW5nIFlhbyBhbmQgWGluZ3poZSBXdSBhbmQgWGlueGluZyBadSBhbmQgWGlueXUgWmhvdSBhbmQgWGlueXVhbiBXYW5nIGFuZCBZLiBDaGFybGVzIGFuZCBZYW4gWmhvbmcgYW5kIFlhbmcgTGkgYW5kIFlhbmd5YW5nIEh1IGFuZCBZYW5ydSBDaGVuIGFuZCBZZWppZSBXYW5nIGFuZCBZaWJvIExpdSBhbmQgWWlibyBNaWFvIGFuZCBZaWRhbyBRaW4gYW5kIFlpbWluIENoZW4gYW5kIFlpcGluZyBCYW8gYW5kIFlpcWluIFdhbmcgYW5kIFlvbmdzaGVuZyBLYW5nIGFuZCBZdWFueGluIExpdSBhbmQgWXVsdW4gRHUgYW5kIFl1eGluIFd1IGFuZCBZdXpoaSBXYW5nIGFuZCBZdXppIFlhbiBhbmQgWmFpZGEgWmhvdSBhbmQgWmhhb3dlaSBMaSBhbmQgWmhelanVuIEppYW5nIGFuZCBaaGVuZyBaaGFuZyBhbmQgWmhpbGluIFlhbmcgYW5kIFpoaXFpIEh1YW5nIGFuZCBaaWhhbyBIdWFuZyBhbmQgWmlqaWEgWmhhbyBhbmQgWml3ZWkgQ2hlbn0sCiAgICAgIHllYXI9ezIwMjV9LAogICAgICBlcHJpbnQ9ezI1MDQuMDc0OTF9LAogICAgICBhcmNoaXZlUHJlZml4PXthclhpdn0sCiAgICAgIHByaW1hcnlDbGFzcz17Y3MuQ1Z9LAogICAgICB1cmw9aHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI1MDQuMDc0OTEsIAp9CjwvY29kZT4KCgojIyBSZWxhdGVkIFByb2plY3RzCgoxLiByZWxhdGVkIHByb2plY3QgW1F3ZW4yLjUtVkxdKGh0dHBzOi8vZ2l0aHViLmNvbS9Rd2VuTE0vUXdlbjIuNS1WTCkKMi4gcmVsYXRlZCBwcm9qZWN0IFtEZWVwU2Vlay1WTDJdKGh0dHBzOi8vZ2l0aHViLmNvbS9kZWVwc2Vlay1haS9EZWVwU2Vlay1WTDIpCjMuIHJlbGF0ZWQgcHJvamVjdCBbQXJpYV0oaHR0cHM6Ly9naXRodWIuY29tL3JoeW1lcy1haS9BcmlhKQo=
+<div align="center">
+  <a href="Kimi-VL.pdf">KIMI-VL TECHNICAL REPORT</a>
+</div>
+
+<div align="center">
+  <a href="https://arxiv.org/abs/2504.07491"><img src="figures/logo.png" height="16" width="16" style="vertical-align:middle"><b> Tech Report</b></a>  |  
+  <a href="https://huggingface.co/collections/moonshotai/kimi-vl-a3b-67f67b6ac91d3b03d382dd85"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" height="16" width="16" style="vertical-align:middle"><b> HuggingFace</b>
+  </a> |
+  <a href="https://huggingface.co/spaces/moonshotai/Kimi-VL-A3B-Thinking/">💬<b>Chat with Latest Kimi-VL (2506)</b></a>
+</div>
+
+
+## 1. Introduction
+
+We present **Kimi-VL**, an efficient open-source Mixture-of-Experts (MoE) vision-language model (VLM) that offers **advanced multimodal reasoning, long-context understanding, and strong agent capabilities**—all while activating only **2.8B** parameters in its language decoder (Kimi-VL-A3B).
+
+Kimi-VL demonstrates strong performance across challenging domains:
+as a general-purpose VLM, Kimi-VL excels in multi-turn agent interaction tasks (e.g.,OSWorld), achieving state-of-the-art results comparable to flagship models.
+Furthermore, it exhibits remarkable capabilities across diverse challenging vision language tasks, including college-level image and video comprehension, optical character recognition (OCR), mathematical reasoning, multi-image understanding, and etc.
+
+In comparative evaluations, it effectively competes with cutting-edge efficient VLMs such as GPT-4o-mini, Qwen2.5-VL-7B, and Gemma-3-12B-IT, while surpassing GPT-4o in several specialized domains.
+
+Kimi-VL also advances the pareto frontiers of multimodal models in processing long contexts and perceiving clearly: Equipped with a 128K extended context window, Kimi-VL can processes long and diverse inputs, achieving impressive scores of 64.5 on LongVideoBench, and 35.1 on MMLongBench-Doc; Its native-resolution vision encoder, MoonViT, further allows it to see and understand ultra-high-resolution visual inputs, achieving 83.2 on InfoVQA and 34.5 on ScreenSpot-Pro, while maintaining lower computational cost with common visual inputs and general tasks.
+
+Building on this foundation, we introduce an advanced long-thinking variant: **Kimi-VL-Thinking**. Developed through long chain-of-thought (CoT) supervised fine-tuning (SFT) and reinforcement learning (RL), this model exhibits strong long-horizon reasoning capabilities. It achieves scores of 61.7 on MMMU, 36.8 on MathVision, and 71.3 on MathVista while maintaining the compact 2.8B activated LLM parameter footprint, setting a new standard for efficient yet capable multimodal **thinking** models.
+
+
+<i>Besides original model variants, we also provide a new [Kimi-VL-A3B-Thinking-2506](https://huggingface.co/moonshotai/Kimi-VL-A3B-Thinking-2506) variant with several new or improved abilities:
+- It Thinks Smarter while Consuming Less Tokens: The 2506 version reaches better accuracy on multimodal reasoning benchmarks: 56.9 on MathVision (+20.1), 80.1 on MathVista (+8.4), 46.3 on MMMU-Pro (+3.2), 64.0 on MMMU (+2.1), while in average reducing 20% thinking length.
+- It Sees Clearer with Thinking: Unlike the previous version that specializes on thinking tasks, the 2506 version can also achieve the same or even better ability on general visual perception and understanding, e.g. MMBench-EN-v1.1 (84.4), MMStar (70.4), RealWorldQA (70.0), MMVet (78.4) compared to the original non-thinking version (Kimi-VL-A3B-Instruct).
+- It Extends to Video Scenarios: The new 2506 version also improves on video reasoning and understanding benchmarks. It sets new state-of-the-art for open-source models on VideoMMMU (65.2), while also retaining good ability on general video understanding (71.9 on Video-MME).
+- It Extends to Higher Resolution: The new 2506 version supports 3.2 million total pixels in a single image (1792x1792), 4X compared to the original release. This leads to non-trivial improvements on high-resolution perception and OS-agent grounding benchmarks: 83.2 on V* Benchmark (without extra tools), 52.8 on ScreenSpot-Pro, 52.5 on OSWorld-G (full set with refusal).
+</i>
+
+
+
+## 2. Architecture
+
+The model adopts an MoE language model, a native-resolution visual encoder (MoonViT), and an MLP projector, as illustrated in the following image.
+
+<div align="center">
+  <img width="90%" src="figures/arch.png">
+</div>
+
+## 3. News
+
+- 2025.06.21: Release of Kimi-VL-A3B-Thinking-2506: [Tech Blog \& Cookbook](https://huggingface.co/blog/moonshotai/kimi-vl-a3b-thinking-2506), [🤗 Hugging Face](https://huggingface.co/moonshotai/Kimi-VL-A3B-Thinking-2506)
+- 2025.04.15: [vLLM](https://github.com/vllm-project/vllm) has supported Kimi-VL deployment. See [#16387](https://github.com/vllm-project/vllm/pull/16387) for details.
+- 2025.04.14: [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) has supported Kimi-VL finetuning. See [#7719](https://github.com/hiyouga/LLaMA-Factory/pull/7719) for details.
+
+## 4. Model Variants
+
+🤗 For common general multimodal perception and understanding, OCR, long video and long document, video perception, and OS-agent uses, we recommend `Kimi-VL-A3B-Instruct` for efficient inference; meanwhile, our new thinking version, `Kimi-VL-A3B-Thinking-2506` also has excellent multimodal perception, long video and long document and OS-agent grounding abilities while achieving better multimodal reasoning skills. See [this blog](https://huggingface.co/blog/moonshotai/kimi-vl-a3b-thinking-2506) for more information.
+
+<div align="center">
+
+| **Model** | **#Total Params** | **#Activated Params** | **Context Length** | **Download Link** |
+| :------------: | :------------: | :------------: | :------------: | :------------: |
+| 🔥Kimi-VL-A3B-Thinking-2506  | 16B | 3B |  128K   | [🤗 Hugging Face](https://huggingface.co/moonshotai/Kimi-VL-A3B-Thinking-2506)   |
+| Kimi-VL-A3B-Instruct | 16B | 3B | 128K   | [🤗 Hugging Face](https://huggingface.co/moonshotai/Kimi-VL-A3B-Instruct)   |
+| Kimi-VL-A3B-Thinking (deprecated)  | 16B | 3B |  128K   | [🤗 Hugging Face](https://huggingface.co/moonshotai/Kimi-VL-A3B-Thinking)   |
+
+</div>
+
+> [!Note]
+> Recommended parameter settings:
+> - For **Thinking models**, it is recommended to use `Temperature = 0.8`. 
+> - For **Instruct models**, it is recommended to use `Temperature = 0.2`. 
+
+
+### Hugging Face Demo
+
+> 🤗 We serve our model demo in Hugging Face spaces:
+> - Chat with **Kimi-VL-A3B-Thinking-2506**👀🤔🗺️🎬📖🖥️ (*unifying thinking, general understanding, puzzle solving, agent, video, PDF*) model on <a href="https://huggingface.co/spaces/moonshotai/Kimi-VL-A3B-Thinking/">Chat Web</a>.
+
+## 5. Performance
+
+> [!Note]
+> See the performance of Kimi-VL-A3B-Thinking-2506 at [Hugging Face](https://huggingface.co/moonshotai/Kimi-VL-A3B-Thinking-2506#2-performance).
+
+As an efficient model, Kimi-VL can robustly handle diverse tasks (fine-grained perception, math, college-level problems, OCR, agent, etc) across a broad spectrum of input forms (single-image, multi-image, video, long-document, etc).
+
+A brief comparison with existing 10B-level dense VLMs and DeepSeek-VL2 (A4.5B):
+
+<div align="center">
+  <img width="100%" src="figures/instruct_perf.png">
+</div>
+
+With effective long-thinking abilities, Kimi-VL-A3B-Thinking (2504 version) can match the performance of 30B/70B frontier open-source VLMs on MathVision benchmark:
+
+<div align="center">
+  <img width="100%" src="figures/thinking_perf.png">
+</div>
+
+
+## 6. Example usage
+
+### Setup
+
+```bash
+conda create -n kimi-vl python=3.10 -y
+conda activate kimi-vl
+pip install -r requirements.txt
+```
+
+> [!Note]
+> If you encounter Out-of-Memory or want to speed up inference, please install **flash-attn** with `pip install flash-attn --no-build-isolation`.
+
+### Inference with Hugging Face Transformers 
+
+We introduce how to use our model at inference stage using transformers library. It is recommended to use python=3.10, torch=2.5.1, and transformers=4.51.3 as the development environment. 
+
+#### Kimi-VL-A3B-Instruct:
+
+```python
+import torch
+from PIL import Image
+from transformers import AutoModelForCausalLM, AutoProcessor
+
+model_path = "moonshotai/Kimi-VL-A3B-Instruct"
+model = AutoModelForCausalLM.from_pretrained(
+    model_path,
+    torch_dtype="auto",
+    device_map="auto",
+    trust_remote_code=True,
+)
+# If flash-attn has been installed, it is recommended to set torch_dtype=torch.bfloat16 and attn_implementation="flash_attention_2"
+# to save memory and speed up inference
+# model = AutoModelForCausalLM.from_pretrained(
+#     model_path,
+#     torch_dtype=torch.bfloat16,
+#     device_map="auto",
+#     trust_remote_code=True,
+#     attn_implementation="flash_attention_2"
+# )
+
+processor = AutoProcessor.from_pretrained(model_path, trust_remote_code=True)
+
+image_path = "./figures/demo.png"
+image = Image.open(image_path)
+messages = [
+    {"role": "user", "content": [{"type": "image", "image": image_path}, {"type": "text", "text": "What is the dome building in the picture? Think step by step."}]}
+]
+text = processor.apply_chat_template(messages, add_generation_prompt=True, return_tensors="pt")
+inputs = processor(images=image, text=text, return_tensors="pt", padding=True, truncation=True).to(model.device)
+generated_ids = model.generate(**inputs, max_new_tokens=512)
+generated_ids_trimmed = [
+    out_ids[len(in_ids) :] for in_ids, out_ids in zip(inputs.input_ids, generated_ids)
+]
+response = processor.batch_decode(
+    generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
+)[0]
+print(response)
+```
+
+#### Kimi-VL-A3B-Thinking-2506:
+
+```python
+import torch
+from PIL import Image
+from transformers import AutoModelForCausalLM, AutoProcessor
+
+model_path = "moonshotai/Kimi-VL-A3B-Thinking-2506"
+model = AutoModelForCausalLM.from_pretrained(
+    model_path,
+    torch_dtype="auto",
+    device_map="auto",
+    trust_remote_code=True,
+)
+# If flash-attn has been installed, it is recommended to set torch_dtype=torch.bfloat16 and attn_implementation="flash_attention_2"
+# to save memory and speed up inference
+# model = AutoModelForCausalLM.from_pretrained(
+#     model_path,
+#     torch_dtype=torch.bfloat16,
+#     device_map="auto",
+#     trust_remote_code=True,
+#     attn_implementation="flash_attention_2"
+# )
+processor = AutoProcessor.from_pretrained(model_path, trust_remote_code=True)
+
+image_paths = ["./figures/demo1.png", "./figures/demo2.png"]
+images = [Image.open(path) for path in image_paths]
+messages = [
+    {
+        "role": "user",
+        "content": [
+            {"type": "image", "image": image_path} for image_path in image_paths
+        ] + [{"type": "text", "text": "Please infer step by step who this manuscript belongs to and what it records"}],
+    },
+]
+text = processor.apply_chat_template(messages, add_generation_prompt=True, return_tensors="pt")
+inputs = processor(images=images, text=text, return_tensors="pt", padding=True, truncation=True).to(model.device)
+generated_ids = model.generate(**inputs, max_new_tokens=32768, temperature=0.8)
+generated_ids_trimmed = [
+    out_ids[len(in_ids) :] for in_ids, out_ids in zip(inputs.input_ids, generated_ids)
+]
+response = processor.batch_decode(
+    generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
+)[0]
+print(response)
+```
+
+## 7. Finetuning
+
+Collaborating closely with the open-source community, Kimi-VL now offers seamless support for efficient fine-tuning through the latest version of [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory). 
+
+The framework enables Single-GPU LoRA fine-tuning with 50GB of VRAM, as well as Multi-GPU full/lora fine-tuning using DeepSpeed ZeRO-2. For more detailed configuration instructions, check out [this PR](https://github.com/hiyouga/LLaMA-Factory/pull/7719#issue-2992644288).
+
+## 8. Deployment
+
+### Using vLLM
+
+The [vLLM main branch](https://github.com/vllm-project/vllm) has supported Kimi-VL deployment. You are welcome to deploy Kimi-VL using vLLM.
+
+#### Offline Inference
+
+> [!Note]
+> More usages about `Offline Inference` can be found at [vLLM Offline Inference](https://docs.vllm.ai/en/latest/serving/offline_inference.html).
+
+```python
+from PIL import Image
+from transformers import AutoProcessor
+from vllm import LLM, SamplingParams
+
+model_path = "moonshotai/Kimi-VL-A3B-Instruct"  # or "moonshotai/Kimi-VL-A3B-Thinking-2506"
+llm = LLM(
+    model_path,
+    trust_remote_code=True,
+)
+
+processor = AutoProcessor.from_pretrained(model_path, trust_remote_code=True)
+
+image_path = "./figures/demo.png"
+image = Image.open(image_path)
+messages = [
+    {"role": "user", "content": [{"type": "image", "image": image_path}, {"type": "text", "text": "What is the dome building in the picture? Think step by step."}]}
+]
+text = processor.apply_chat_template(messages, add_generation_prompt=True, return_tensors="pt")
+outputs = llm.generate([{"prompt": text, "multi_modal_data": {"image": image}}], sampling_params = SamplingParams(max_tokens=512))
+
+print("-" * 50)
+for o in outputs:
+    generated_text = o.outputs[0].text
+    print(generated_text)
+    print("-" * 50)
+```
+
+#### OpenAI-Compatible Server
+
+> [!Note]
+> More usages about `OpenAI-Compatible Server` can be found at [vLLM OpenAI-Compatible Server](https://docs.vllm.ai/en/latest/serving/openai_compatible_server.html#).
+
+Serve Kimi-VL with `vllm serve` command:
+
+```bash
+# If you need a longer context window, you can set --max-model-len and --max-num-batched-tokens to 131072
+# If you need more input images, you can set --limit-mm-per-prompt image=256 or 512
+
+# kimi-vl-thinking-2506
+vllm serve moonshotai/Kimi-VL-A3B-Thinking-2506 --served-model-name kimi-vl-thinking-2506 --trust-remote-code --tensor-parallel-size 1 --max-num-batched-tokens 32768 --max-model-len 32768 --limit-mm-per-prompt image=64
+
+# kimi-vl-instruct
+vllm serve moonshotai/Kimi-VL-A3B-Instruct --served-model-name kimi-vl --trust-remote-code --tensor-parallel-size 1 --max-num-batched-tokens 32768 --max-model-len 32768 --limit-mm-per-prompt image=64
+```
+
+Call the API
+
+```python
+import base64
+from PIL import Image
+from io import BytesIO
+from openai import OpenAI
+
+client = OpenAI(
+    base_url="http://localhost:8000/v1",
+    api_key="token-abc123",
+)
+
+image_path = "./figures/demo.png"
+image = Image.open(image_path).convert("RGB")
+
+buffered = BytesIO()
+image.save(buffered, format="JPEG")
+img_b64_str = base64.b64encode(buffered.getvalue()).decode("utf-8")
+base64_image_url = f"data:image/jpeg;base64,{img_b64_str}"
+
+messages = [
+    {"role": "user", "content": [{"type": "image_url", "image_url": {"url": base64_image_url}}, {"type": "text", "text": "What is the dome building in the picture? Think step by step."}]}
+]
+
+completion = client.chat.completions.create(
+  model="kimi-vl-thinking-2506", # or kimi-vl
+  messages=messages
+)
+
+print(completion.choices[0].message)
+```
+
+## 9. Citation
+
+```
+@misc{kimiteam2025kimivltechnicalreport,
+      title={{Kimi-VL} Technical Report}, 
+      author={Kimi Team and Angang Du and Bohong Yin and Bowei Xing and Bowen Qu and Bowen Wang and Cheng Chen and Chenlin Zhang and Chenzhuang Du and Chu Wei and Congcong Wang and Dehao Zhang and Dikang Du and Dongliang Wang and Enming Yuan and Enzhe Lu and Fang Li and Flood Sung and Guangda Wei and Guokun Lai and Han Zhu and Hao Ding and Hao Hu and Hao Yang and Hao Zhang and Haoning Wu and Haotian Yao and Haoyu Lu and Heng Wang and Hongcheng Gao and Huabin Zheng and Jiaming Li and Jianlin Su and Jianzhou Wang and Jiaqi Deng and Jiezhong Qiu and Jin Xie and Jinhong Wang and Jingyuan Liu and Junjie Yan and Kun Ouyang and Liang Chen and Lin Sui and Longhui Yu and Mengfan Dong and Mengnan Dong and Nuo Xu and Pengyu Cheng and Qizheng Gu and Runjie Zhou and Shaowei Liu and Sihan Cao and Tao Yu and Tianhui Song and Tongtong Bai and Wei Song and Weiran He and Weixiao Huang and Weixin Xu and Xiaokun Yuan and Xingcheng Yao and Xingzhe Wu and Xinxing Zu and Xinyu Zhou and Xinyuan Wang and Y. Charles and Yan Zhong and Yang Li and Yangyang Hu and Yanru Chen and Yejie Wang and Yibo Liu and Yibo Miao and Yidao Qin and Yimin Chen and Yiping Bao and Yiqin Wang and Yongsheng Kang and Yuanxin Liu and Yulun Du and Yuxin Wu and Yuzhi Wang and Yuzi Yan and Zaida Zhou and Zhaowei Li and Zhejun Jiang and Zheng Zhang and Zhilin Yang and Zhiqi Huang and Zihao Huang and Zijia Zhao and Ziwei Chen},
+      year={2025},
+      eprint={2504.07491},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2504.07491}, 
+}
+```
+
+1. related project [Qwen2.5-VL](https://github.com/QwenLM/Qwen2.5-VL)
+2. related project [DeepSeek-VL2](https://github.com/deepseek-ai/DeepSeek-VL2)
+3. related project [Aria](https://github.com/rhymes-ai/Aria)
